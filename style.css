@@ -7,6 +7,11 @@
 
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .top {
   /*background-image: url("https://static.pexels.com/photos/48728/pexels-photo-48728.jpeg");*/
   /*background: -webkit-linear-gradient( black, white);*/
@@ -43,7 +48,7 @@
 }
 
 .navbutton {
-  width: 23%;
+  width: 17%;
   display: inline-block;
   text-align: center;
   font-size: 75%;
@@ -160,7 +165,7 @@
   color: white;
   text-align: center;
   background-color: rgba( 0, 0, 0, 0.7);
-  width: 50%;
+  width: 57%;
   display: inline-block;
   font-family: 'Quicksand', sans-serif;
   padding: 0.5%;
@@ -220,7 +225,7 @@
   color: white;
   text-align: center;
   background-color: rgba( 0, 0, 0, 0.7);
-  width: 10%;
+  width: 10s%;
   display: inline-block;
   font-family: 'Quicksand', sans-serif;
   margin-top: 25px;
@@ -228,6 +233,92 @@
   border-radius: 2.5px;
   font-size: 100%;
 }
+
+/* START STYLE FOR INDIVIDUAL PAGES */
+
+/* Contact */
+
+.summary {
+  height: 30%;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 3%;
+}
+
+.summary h1 {
+  font-size: 200%
+}
+
+.info {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  line-height: 3.2em;
+  background-color: #c5c5c5;
+  padding-top: 1%;
+  background: -webkit-linear-gradient( white , #c5c5c5);
+  padding-bottom: 10%;
+  margin-bottom: -6%;
+}
+
+.info h1 {
+  font-size: 150%;
+}
+
+.info a {
+  color: black;
+  font-size: 100%;
+  text-decoration: underline;
+}
+
+.phone {
+  height: 400%;
+  float: left;
+  width: 45%;
+  display: inline-block;
+  font-family: "Quicksand", sans-serif;
+  padding-left: 5%;
+}
+
+.phone h1 {
+  font-size: 170%;
+}
+
+.email {
+  height: 400%;
+  float: left;
+  width: 50%;
+  display: inline-block;
+  font-family: "Quicksand", sans-serif;
+}
+
+.email h1 {
+  font-size: 170%;
+}
+
+/* journey */
+
+.image img {
+  margin-right: 5%;
+  margin-left: 8.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
