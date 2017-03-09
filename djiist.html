@@ -54,12 +54,12 @@
     	<div class="resume">
 
         <div class="summary2">
-          <p>RJ Leonard Foundation</p>
+          <p>The Djiist</p>
         </div>
 
         <div class="portfolioitem">
           <div class="portfoliotext">
-            <h2>Objective: Design user experience of RJ Leonard Foundation's website to improve usability, storytelling and visual appeal</h2>
+            <h2>Objective: Add to existing news aggregator site to improve usability and social functions</h2>
 
           </div>
         </div>
@@ -69,15 +69,15 @@
           </div>
           <div class="portfoliotext">
             <h3>"What is the problem?"</h3>
-            <!--<p>Before redesign:</p>-->
-            <img src="https://s3.amazonaws.com/aws-website-ngux-po2ov/img/Screen+Shot+2017-01-30+at+6.07.08+PM.png">
-            <img src="https://s3.amazonaws.com/aws-website-ngux-po2ov/img/Screen+Shot+2017-01-30+at+6.07.34+PM.png">
-            <img src="https://s3.amazonaws.com/aws-website-ngux-po2ov/img/Screen+Shot+2017-01-30+at+6.07.48+PM.png">
-            <h3>Working with client, we had identified the following areas of opportunity:</h3>
+            <!--<div class="portfoliotext" id="dji">
+              <img src="https://s3.amazonaws.com/aws-website-ngux-po2ov/img/Screen+Shot+2017-03-02+at+6.51.14+PM.png">
+            </div>-->
+            <img src="https://s3.amazonaws.com/aws-website-ngux-po2ov/img/Screen+Shot+2017-03-02+at+6.51.14+PM.png" id="dji">
+            <h3>The Djiist is a news aggregator application that pulls information from Google Trends and displays it in a consumable format, using a photo and a short blurb for the content of each "news item". The client wants to expand the functionality of the application in the following ways:</h3>
             <ul>
-              <li>Navigation is a challenge, categories of information seem to be in disparate places</li>
-              <li>The story of the foundation is in text form, no visuals</li>
-              <li>The current page is dark and media is black and white, perhaps invoking the wrong message</li>
+              <li>Make sure the application is usable, easy to understand</li>
+              <li>Implement some kind of social media integration, show what people are saying about news online</li>
+              <li>Adapt the desktop version into a mobile application</li>
             </ul>
           </div>
         </div>
@@ -88,14 +88,24 @@
           </div>
           <div class="portfoliotext">
             <h3>"How do we solve it?"</h3>
-            <p>In order to find a better way to convey the foundation's message, I posed the question:</p>
-            <h3>"What do the best non-profit websites have in common?"</h3>
-            <p>From looking at websites like <a href="http://www.nrdc.org" id="dllink" target="_blank">NRDC.org</a>, <a href="http://www.voa.org" id="dllink" target="_blank">VOA.org</a>, and <a href="http://www.amnesty.org" id="dllink" target="_blank">Amnesty.org</a>, I found some common elements that make a good non-profit organization website:</p>
+            <p>In order to figure out how to implement the changes to the site and incorporate the new elements, I kept the following guidelines in mind:</p>
             <ul>
-              <li>Images are large, bringing the reader in and captivating them; the images tell the story</li>
-              <li>There is a constant call to action on the top navigation bar, navigation bar is typically static</li>
-              <li>There is a clear message communicated through the categories of "Who we are", "What we do", and "Why it matters"</li>
+              <li>Stories should be modular, self-contained</li>
+              <li>Let there be a hierarchy of information: start small, let user click to expand to learn more</li>
+              <li>Let user customize the experience</li>
+              <li>Use the inherent media to the advantage of the experience, let users see the story at a glance</li>
             </ul>
+
+            <h3>Site Usability Audit</h3>
+            <p>In order to see where the opportunities for improvement were on the existing site, I used the site extensively and exhaustively and found the following opportunities:</p>
+            <ul>
+              <li>Links on stories go to external sites, there could be an opportunity to keep users on the site if content were outlined in a more detailed secondary page made visible with a click to the story</li>
+              <li>Social media element could enhance the experience of the site but it must remain secondary to the actual story content, that's why people come to the site</li>
+              <li>The site only updates every few hours; more frequent updates could keep users on the site, keen to stay up to date with the trends</li>
+            </ul>
+            <h3>Site Map/User Journey</h3>
+            <p>I used drawing software to outline the current possible actions on the site to further identify opportunities for improvement:</p>
+            <img id="djimap" src="https://s3.amazonaws.com/aws-website-ngux-po2ov/img/djiistmap.png">
           </div>
         </div>
 
@@ -105,17 +115,28 @@
           </div>
           <div class="portfoliotext">
             <h3>"Let's try this."</h3>
-            <p>With the new goals in mind, I parsed the current site's content and layout and created a wireframe mockup to guide the design of the new site (grey areas denotate images and media):</p>
-            <img src="https://s3.amazonaws.com/aws-website-ngux-po2ov/img/RJLF+Wireframe+1-30-17(2).jpg">
-            <img src="https://s3.amazonaws.com/aws-website-ngux-po2ov/img/RJLF+Wireframe+1-30-17(2)what.jpg">
-            <img src="https://s3.amazonaws.com/aws-website-ngux-po2ov/img/RJLF+Wireframe+1-30-17(2)why.jpg">
+            <p>Using Balsamiq Mockups, I sketched out some ideas for the application. First, the mobile version:</p>
+            <img id="djiimg" src="https://s3.amazonaws.com/aws-website-ngux-po2ov/img/Home+-+Mobile+(Alternate+473e).png">
+            <img id="djiimg" src="https://s3.amazonaws.com/aws-website-ngux-po2ov/img/Home+-+Mobile+%5BExpanded+item+1%5D.png">
+            <img id="djiimg" src="https://s3.amazonaws.com/aws-website-ngux-po2ov/img/Home+-+Mobile+copy+%5BMenu+2%5D.png">
+            <img id="djiimg" src="https://s3.amazonaws.com/aws-website-ngux-po2ov/img/Story+-+Mobile.png                     ">
             <p id="download"><a href="https://s3.amazonaws.com/aws-website-ngux-po2ov/portfolio/files/RJLF+Wireframe+1-30-17(2).pdf" target="_blank">[Download wireframe in PDF format]</a></p>
-            <p>This new layout meets client goals and customer needs in a more elegant fashion:</p>
+            <!--<p>This new layout meets client goals and customer needs in a more elegant fashion:</p>
               <ul>
-                <li>Navigation is simple, the information architecture is more organized under the categories of What, Who, and Why</li>
-                <li>Story of the foundation is told through graphics and media in an easy-to-discover format</li>
+                <li>Information is laid out in a easy-to-digest format</li>
+                <li>Hierarchy of information: Each story on feed is clickable to expand information displayed</li>
                 <li>Page follows modern convention, including full-width images and bright, optimistic visual language</li>
-              </ul>
+              </ul>-->
+            <p>And the desktop version:</p>
+            <img id="djiimg2" src="https://s3.amazonaws.com/aws-website-ngux-po2ov/img/Home+copy.png">
+            <img id="djiimg2" src="https://s3.amazonaws.com/aws-website-ngux-po2ov/img/Home+copy+8.png">
+            <img id="djiimg2" src="https://s3.amazonaws.com/aws-website-ngux-po2ov/img/Home+copy+3.png">
+            <p>These mockups show what it might look like to keep users inside the site when looking for more information about a certain story on the home page.</p>
+            <ul>
+              <li>Users get a "ticker" along the bottom of the page (desktop) and along the bottom of each story (mobile) to enrich the experience and show what others are saying about each story</li>
+              <li>If users click on a story, they get a more verbose description along with more robust social media information</li>
+              <li>The desktop mockup shows what it might look like if each expanded story also shows the story from other news sites if they wish to continue to an external site</li>
+            </ul>
           </div>
         </div>
 
@@ -125,11 +146,11 @@
           </div>
           <div class="portfoliotext">
             <h3>"Does it work? What's wrong?"</h3>
-            <p>Implementation is still underway, check back soon for further progress on this project! (1/31/17)</p>
+            <p>Coming soon! (3.9.17)</p>
           </div>
         </div>
 
-        <div class="portfolioitem">
+        <!--<div class="portfolioitem">
           <div class="portfoliotext" id="dot">
             <img src="https://s3.amazonaws.com/aws-website-ngux-po2ov/img/Deploy.png">
           </div>
@@ -137,7 +158,7 @@
             <h3>Step 3: Implementation of new design</h3>
             <p>Implementation is still underway, check back soon for further progress on this project! (1/31/17)</p>
           </div>
-        </div>
+        </div>-->
         <br>
 
 

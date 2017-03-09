@@ -521,11 +521,32 @@ a {
   text-decoration: underline;
 }
 
+.summary3 {
+  height: 30%;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 2%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.summary3 p {
+  font-size: 170%;
+  text-decoration: underline;
+}
+
 .portfolioitem {
   background-color: white;
   width: 100%;
   padding-left: 8%
 }
+
+.portfolioitem img {
+  width: 91.5%;
+  padding-bottom: 3%;
+}
+
+
 
 .portfoliotext {
   display: inline-block;
@@ -578,4 +599,87 @@ a {
 
 .portfoliotext img {
   box-shadow: 1px 5px 15px grey;
+}
+
+.portfoliotext1 img {
+  width: 2%;
+}
+
+#dot img {
+  width: 13%;
+  box-shadow: none;
+  padding: 0;
+}
+
+#dot {
+  padding: 0;
+  margin: 0;
+}
+
+#dllink {
+  font-size: 100%;
+}
+
+#dji {
+  width: 96%;
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#djiimg {
+  width: 22%;
+  box-shadow: none;
+  margin: 1%;
+}
+
+#djiimg2 {
+  width: 32%;
+  box-shadow: none;
+}
+
+#djimap {
+  box-shadow: none;
+  width: 58%;
+  margin-left: 23%;
+}
+
+#personae {
+  width: 100%;
+  height: 80%;
+}
+
+#echopers {
+  box-shadow: none;
+  width: 80%;
+  margin-left: 12%;
+  margin-bottom: 2%;
+}
+
+#echomap {
+  width: 70%;
+  box-shadow: none;
+  margin-left: 17%;
+}
+
+#echorra {
+  box-shadow: none;
+  width: 80%;
+  margin-left: 12%;
+}
+
+#portpic {
+  box-shadow: none;
+  width: 33%;
+
+}
+
+#projimg {
+  padding-right: 0;
+  margin-left: 1%;
+}
+
+#flowimg {
+  margin-bottom: 4%;
 }
