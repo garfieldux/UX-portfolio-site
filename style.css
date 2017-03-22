@@ -71,8 +71,72 @@ a {
 
 .top {
   /*background-image: url("https://static.pexels.com/photos/48728/pexels-photo-48728.jpeg");*/
-  /*background: -webkit-linear-gradient( black, white);*/
-  background-image: url("https://s3.amazonaws.com/aws-website-ngux-po2ov/img/pexels-photo.jpg");
+  background: linear-gradient(to bottom right, #ff3399 0%, #cc33ff 66%);
+  /*background-image: url("https://s3.amazonaws.com/aws-website-ngux-po2ov/img/pexels-photo.jpg");*/
+  background-position: top center;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  margin-bottom: 20%;
+  position: fixed;
+  width: 100%;
+  z-index: -99;
+  height: 80%;
+  /*min-width: 1000px;
+  min-height: 300px;*/
+}
+
+.top2 {
+  /*background-image: url("https://static.pexels.com/photos/48728/pexels-photo-48728.jpeg");*/
+  background: linear-gradient(to bottom left, #ff9900 0%, #cc66ff 79%);
+  /*background-image: url("https://s3.amazonaws.com/aws-website-ngux-po2ov/img/pexels-photo.jpg");*/
+  background-position: top center;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  margin-bottom: 20%;
+  position: fixed;
+  width: 100%;
+  z-index: -99;
+  height: 80%;
+  /*min-width: 1000px;
+  min-height: 300px;*/
+  }
+
+.top3 {
+  /*background-image: url("https://static.pexels.com/photos/48728/pexels-photo-48728.jpeg");*/
+  background: linear-gradient(to bottom right, #00ffff 0%, #cc66ff 79%);
+  /*background-image: url("https://s3.amazonaws.com/aws-website-ngux-po2ov/img/pexels-photo.jpg");*/
+  background-position: top center;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  margin-bottom: 20%;
+  position: fixed;
+  width: 100%;
+  z-index: -99;
+  height: 80%;
+  /*min-width: 1000px;
+  min-height: 300px;*/
+}
+
+.top4 {
+  /*background-image: url("https://static.pexels.com/photos/48728/pexels-photo-48728.jpeg");*/
+  background: linear-gradient(to top right, #ffcc00 0%, #ff66cc 74%);
+  /*background-image: url("https://s3.amazonaws.com/aws-website-ngux-po2ov/img/pexels-photo.jpg");*/
+  background-position: top center;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  margin-bottom: 20%;
+  position: fixed;
+  width: 100%;
+  z-index: -99;
+  height: 80%;
+  /*min-width: 1000px;
+  min-height: 300px;*/
+}
+
+.top5 {
+  /*background-image: url("https://static.pexels.com/photos/48728/pexels-photo-48728.jpeg");*/
+  background: linear-gradient(to top right, #66ff66 0%, #00ffff 70%);
+  /*background-image: url("https://s3.amazonaws.com/aws-website-ngux-po2ov/img/pexels-photo.jpg");*/
   background-position: top center;
   background-size: 130%;
   background-repeat: no-repeat;
@@ -104,7 +168,7 @@ a {
 }
 
 .navbutton {
-  width: 25%;
+  width: 35%;
   display: inline-block;
   text-align: center;
   font-size: 130%;
@@ -115,6 +179,7 @@ a {
   padding-bottom: 0.2%;
   /*background-color: rgba(255, 255, 255, 0.8);*/
   border-radius: 4px;
+  border: 2px hidden white;
   font-family: 'Quicksand', sans-serif;
   letter-spacing: 0.12em;
   color: white;
@@ -148,8 +213,8 @@ a {
   margin-bottom: 2%;
   font-family: 'Quicksand', sans-serif;
   letter-spacing: 0.2em;
+  font-size: 150%;
   color: white;
-  font-size: 125%;
   padding-bottom: 2%;
 }
 
@@ -181,8 +246,9 @@ a {
 
 .portfoliolink {
   height: 10%;
-  background-color: #606060;
-  background-image: url("https://s3.amazonaws.com/aws-website-ngux-po2ov/img/codecode.jpg");
+  /*background-color: #606060;
+  background-image: url("https://s3.amazonaws.com/aws-website-ngux-po2ov/img/codecode.jpg");*/
+  background: linear-gradient(to top right, #0000ff -7%, #ff9966 103%);
   background-position: center;
   background-size: 100%;
   color: white;
@@ -223,7 +289,8 @@ a {
 .creativelink {
   height: 75%;
   background-color: #606060;
-  background-image: url("https://s3.amazonaws.com/aws-website-ngux-po2ov/img/avoid-resume-words.jpg");
+  /*background-image: url("https://s3.amazonaws.com/aws-website-ngux-po2ov/img/avoid-resume-words.jpg");*/
+  background: linear-gradient(to top right, #66ff66 0%, #00ffff 70%);;
   background-position: center;
   background-size: 100%;
   color: white;
@@ -584,10 +651,27 @@ a {
   text-decoration: underline;
 }
 
+.summary3 h1 {
+  font-size: 155%;
+}
+
+.summary3 h6 {
+  font-size: 230%;
+  text-decoration: underline;
+}
+
 .portfolioitem {
   background-color: white;
   width: 100%;
   padding-left: 8%
+}
+
+.portfolioitemhalf {
+  background-color: white;
+  width: 45%;
+  margin-left: 4%;
+  float: left;
+  margin-bottom: 10%
 }
 
 .portfolioitem img {
@@ -595,7 +679,14 @@ a {
   padding-bottom: 3%;
 }
 
+.portfolioitemhalf img {
+  width: 100%;
+  ;
+}
 
+#half {
+  width: 50%;
+}
 
 .portfoliotext {
   display: inline-block;
@@ -627,6 +718,11 @@ a {
   vertical-align: top;
 }
 
+.portfoliotexthalf img{
+  width: 90%;
+  margin: 0.5%;
+}
+
 .portfoliotext li {
   margin-left: 5%;
 }
@@ -650,6 +746,7 @@ a {
   box-shadow: 1px 5px 15px grey;
 }
 
+
 .portfoliotext1 img {
   width: 2%;
 }
@@ -659,17 +756,30 @@ a {
 }
 
 #rjold {
-  margin-left: 2.75%;
+  margin-left: 20%;
+  padding-left: 5%;
   margin-top: 2%;
+  width: 75%;
 }
 
 #dot img {
-  width: 13%;
+  width: 18%;
   box-shadow: none;
   padding: 0;
 }
 
 #dot {
+  padding: 0;
+  margin: 0;
+}
+
+#dot1 img {
+  width: 22.5%;
+  box-shadow: none;
+  padding: 0;
+}
+
+#dot1 {
   padding: 0;
   margin: 0;
 }
@@ -698,10 +808,15 @@ a {
   margin-bottom: 2%;
 }
 
+#djiimg3 {
+  width: 32%;
+  margin-bottom: 2%;
+}
+
 #djimap {
   box-shadow: none;
-  width: 58%;
-  margin-left: 23%;
+  width: 100%;
+  margin-left: 5%;
 }
 
 #personae {
@@ -729,7 +844,6 @@ a {
 }
 
 #portpic {
-  box-shadow: none;
   width: 30%;
   margin-left: 1.5%;
 }
@@ -745,7 +859,14 @@ a {
 
 #rjmap {
   box-shadow: none;
-  width: 60%;
+  width: 80%;
+  margin-left: 20.8%;
+  margin-top: 2%;
+}
+
+#rjmap2 {
+  box-shadow: none;
+  width: 90%;
   margin-left: 20.8%;
   margin-top: 2%;
 }
